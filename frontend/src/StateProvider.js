@@ -5,7 +5,7 @@ import React, { createContext, useContext, useReducer } from "react";
 export const StateContext = createContext();
 
 // estado inicial e função redutora
-const inicialState = {
+const initialState = {
     basket: [],
     //outros estados, se necessário
 };
